@@ -4,7 +4,7 @@ Public-safe Codex skill for creating contractor invoices from local client profi
 
 ## Layout
 
-- `.agents/skills/create-invoice/` - repo-local Codex skill for discovering invoice context, rendering invoices, validating PDFs, and preparing test emails.
+- `.agents/skills/send-invoice/` - repo-local Codex skill for discovering invoice context, rendering invoices, validating PDFs, and preparing test emails.
 - `examples/invoice-data/` - fake example runtime config. Copy this to `.invoice-data/` and replace values locally.
 - `.invoice-data/` - private runtime config, bank details, client profiles, and generated drafts. Ignored by git.
 - `sent/` - local final invoice PDFs grouped by recipient or client. Ignored by git.
