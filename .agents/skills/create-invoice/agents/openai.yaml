@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Invoice"
+  short_description: "Create and validate reusable contractor invoices"
+  default_prompt: "Use $create-invoice to create a forward-ready invoice test email for a client."

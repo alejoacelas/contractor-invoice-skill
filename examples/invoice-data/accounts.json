@@ -1,0 +1,22 @@
+{
+  "accounts": {
+    "example_gbp": {
+      "label": "Example GBP account",
+      "confirmed": true,
+      "currency": "GBP",
+      "currency_symbol": "\u00a3",
+      "account_holder_name": "Example Contractor LLC",
+      "receiving_currency": "Pound sterling (\u00a3)",
+      "sort_code": "000000",
+      "account_number": "00000000",
+      "bank_address": "Example Bank, 1 Example Street, London, UK"
+    },
+    "example_usd": {
+      "label": "Example USD account",
+      "confirmed": false,
+      "currency": "USD",
+      "currency_symbol": "$",
+      "notes": "Fill and confirm real details locally before using."
+    }
+  }
+}

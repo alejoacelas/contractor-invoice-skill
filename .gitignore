@@ -1,0 +1,12 @@
+/.invoice-data/
+/sent/
+/work/
+/notes/
+*.pdf
+*.docx
+*.xlsx
+*.png
+*.jpg
+*.jpeg
+*.pyc
+__pycache__/

@@ -1,0 +1,35 @@
+{
+  "client_id": "example-client",
+  "display_name": "Example Client",
+  "folder_name": "example-client",
+  "bill_to": [
+    "Accounts Payable",
+    "Example Client Ltd",
+    "1 Client Street",
+    "London",
+    "UK"
+  ],
+  "default_to": [
+    "ap@example-client.com"
+  ],
+  "default_cc": [],
+  "default_account": "example_gbp",
+  "default_rate": 50,
+  "unit": "Example Unit",
+  "invoice_number": {
+    "last_sent": "#000",
+    "next": "#001",
+    "requires_confirmation_before_advance": true
+  },
+  "date_rules": {
+    "invoice_date_within_work_month": true,
+    "default_due_days": 30
+  },
+  "delivery": {
+    "send_test_to": "contractor@example.com",
+    "external_send_requires_explicit_instruction": true,
+    "default_subject": "Contractor Invoice - Example Contractor"
+  },
+  "default_work_description": "Contractor services",
+  "forms": []
+}
